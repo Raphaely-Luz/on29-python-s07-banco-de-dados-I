@@ -1,0 +1,16 @@
+#Criar Tabela
+
+CREATE TABLE estoque (
+    id INT PRIMARY KEY,
+    livro_id TEXT,
+    quantidade INT
+);
+
+# Insira 3 registros 
+
+INSERT INTO estoque (id, livro_id, quantidade) 
+VALUES 
+(1, 'Admiravel mundo novo', 30), 
+(2, 'A insustentavel leveza do ser', 50), 
+(3, 'Veronica decide morrer', 20);
+
